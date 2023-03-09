@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,600;1,100;1,300&display=swap');
+
+* {
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background-color: #ECECEC;
+}
+
+.bg-nav {
+    background-color: #F7F5EB !important;
+}
+
+.bg-footer {
+    background-color: #243763 !important;
+}
+
+/* NAVBAR */
+.navbar-brand img {
+    width: 110px;
+}
+
+a.nav-link {
+    color: #000000 !important;
+    font-weight: 600;
+}
+
+a.nav-link.active::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 3px;
+    background-color: #FFC93C;
+}
+/* ENDNAVBAR */
+
+/* CONTENT */
+.layanan {
+  background-color: #FFC93C !important;
+}
+
+p.layanan-title {
+  font-weight: 600;
+  color: #FFFFFF;
+}
+
+h3.layanan-title {
+  font-weight: 600;
+}
+
+p.layanan-deskripsi {
+  font-weight: 400;
+}
+
+.layanan-card {
+  min-height: 220px;  
+  align-items: center;
+}
+
+
+p.portofolio-deskripsi {
+  font-size: 18px;
+}
+h3.portofolio-title {
+  font-size: 36px;
+}
+
+a.blog-learn-more {
+  color: #FFC93C;
+  font-weight: 400;
+  text-decoration: none;
+}
+/* ENDCONTENT */
+
+/* FOOTER */
+footer {
+    color: #FFFFFF;
+    font-weight: 600;
+}
+
+footer h3 {
+  font-weight: 600;
+}
+/* ENDFOOTER */
