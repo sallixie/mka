@@ -8,6 +8,12 @@ body {
   background-color: #ECECEC;
 }
 
+.top-bar {
+  height: 50px;
+  width: 100%;
+  background-color: #243763;
+}
+
 .bg-nav {
     background-color: #F7F5EB !important;
 }
