@@ -42,6 +42,67 @@ a.nav-link.active::after {
 /* ENDNAVBAR */
 
 /* CONTENT */
+.beranda-slider {
+  position: relative;
+  height: 90vh;
+  margin-bottom: 500px;
+}
+.title-container {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  color: #FFFFFF;
+  margin-top: 20vh;
+}
+.beranda-slider .slide {
+  position: absolute;
+  width: 100%;
+}
+.beranda-slider img {
+  height: 90vh;
+  object-fit: cover;
+}
+.beranda-slider .btn {
+  background-color: #FFC93C;
+  color: #FFFFFF;
+  font-weight: 600;
+  border-radius: 15px;
+  padding: 16px 30px;
+  border: none;
+}
+.beranda-slider .btn:hover {
+  cursor: pointer;
+  background-color: #fbba17;
+  color: #FFFFFF;
+  font-weight: 600;
+  border-radius: 15px;
+  padding: 16px 30px;
+  border: none;
+}
+
+.title-container-description {
+  position: absolute;
+  width: 80%;
+  bottom: -400px;
+  background-color: #FFC93C;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1;
+  padding: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.title-container-description p {
+  font-size: 24px;
+  font-weight: 300;
+  color: #FFFFFF;
+  line-height: 2;
+}
+
 .layanan {
   background-color: #FFC93C !important;
 }
@@ -184,3 +245,14 @@ footer h3 {
   font-weight: 600;
 }
 /* ENDFOOTER */
+
+/* get content when mobile */
+@media (max-width: 768px) {
+  .title-container-description {
+    display: none;
+  }
+
+  .beranda-slider {
+    margin-bottom: 0;
+  }
+}
