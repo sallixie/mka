@@ -9,3 +9,12 @@ animateCard.forEach((card) => {
     card.style.transition = "all 0.3s ease-in-out";
   });
 });
+
+const contactBtnSend = document.getElementById("contact-btn-send");
+contactBtnSend.addEventListener("click", (e) => {
+  Swal.fire({
+    icon: "success",
+    title: "Success",
+    text: "Your message has been sent!",
+  });
+});
