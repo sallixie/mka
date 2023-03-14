@@ -77,6 +77,96 @@ a.blog-learn-more {
   font-weight: 400;
   text-decoration: none;
 }
+
+.team-card {
+  position: relative;
+  width: 80%;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  height: 300px;
+}
+
+img.team-img {
+  position: absolute;
+  z-index: -1;
+  height: 100%;
+  width: 100%;
+  border-radius: 15px;
+  object-fit: cover;
+}
+
+.team-info {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 87px;
+  background-color: #FFC93C;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.maps-title {
+  font-weight: 600;
+  font-size: 36px;
+  text-align: center;
+  background-color: #FFC93C;
+  color: #FFFFFF;
+  padding: 20px;
+}
+
+.contact-title {
+  font-weight: 600;
+  font-size: 24px;
+  color: #FFC93C;
+}
+.contact-card {
+  background-color: #D9D9D9;
+  border-radius: 15px;
+  color: #FFFFFF;
+  padding: 20px;
+}
+.contact-input {
+  height: 64px;
+  cursor: text;
+}
+.contact-btn {
+  background-color: #FFC93C;
+  color: #FFFFFF;
+  font-weight: 600;
+  border-radius: 15px;
+  padding: 16px 20px;
+  border: none;
+}
+.contact-btn:hover {
+  cursor: pointer;
+  background-color: #fbba17;
+  color: #FFFFFF;
+  font-weight: 600;
+  border-radius: 15px;
+  padding: 16px 20px;
+  border: none;
+}
+.contact-btn:focus {
+  background-color: #f9b00f;
+  color: #FFFFFF;
+  font-weight: 600;
+  border-radius: 15px;
+  padding: 16px 20px;
+  border: none;
+}
+.contact-btn:active {
+  background-color: #f9b00f;
+  color: #FFFFFF;
+  font-weight: 600;
+  border-radius: 15px;
+  padding: 16px 20px;
+  border: none;
+}
 /* ENDCONTENT */
 
 /* FOOTER */
