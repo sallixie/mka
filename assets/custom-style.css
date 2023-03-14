@@ -159,6 +159,26 @@ a.nav-link.active::after {
   animation: modal-show 0.5s;
 }
 
+.partner-img {
+  width: 150px; 
+  height: 100px; 
+  object-fit: contain;
+}
+
+.partner-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-column-gap: 100px;
+  grid-row-gap: 100px;
+  justify-items: center;
+}
+
+.partner-grid img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
 .layanan {
   background-color: #FFC93C !important;
 }
