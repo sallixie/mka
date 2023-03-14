@@ -78,6 +78,11 @@ a.blog-learn-more {
   text-decoration: none;
 }
 
+.deskripsi-kami {
+  line-height: 2.5;
+  text-align: justify;
+}
+
 .team-card {
   position: relative;
   width: 80%;
