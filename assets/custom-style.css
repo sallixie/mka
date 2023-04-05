@@ -219,6 +219,9 @@ a.blog-learn-more {
   color: #FFC93C;
   font-weight: 400;
   text-decoration: none;
+  position: absolute;
+  font-size: 18px;
+  bottom: 20px;
 }
 
 .deskripsi-kami {
