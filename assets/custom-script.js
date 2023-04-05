@@ -10,6 +10,18 @@ animateCard.forEach((card) => {
   });
 });
 
+const animateBtnClick = document.querySelectorAll(".animate-btn-click");
+animateBtnClick.forEach((btnClick) => {
+  btnClick.addEventListener("mousedown", (e) => {
+    btnClick.style.transform = "scale(0.98)";
+    btnClick.style.transition = "all 0.1s ease-in-out";
+  });
+  btnClick.addEventListener("mouseup", (e) => {
+    btnClick.style.transform = "scale(1.02)";
+    btnClick.style.transition = "all 0.15s ease-in-out";
+  });
+});
+
 try {
   const contactBtnSend = document.getElementById("contact-btn-send");
   contactBtnSend.addEventListener("click", (e) => {
