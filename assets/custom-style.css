@@ -186,14 +186,20 @@ a.nav-link.active::after {
 p.layanan-title {
   font-weight: 600;
   color: #FFFFFF;
+  font-family: 'Poppins';
+  font-style: normal;
 }
 
 h3.layanan-title {
+  font-family:'Poppins';
   font-weight: 600;
+  font-size: 30;
 }
 
 p.layanan-deskripsi {
+  font-family:'Poppins';
   font-weight: 400;
+  font-size: 15px;
 }
 
 .layanan-card {
