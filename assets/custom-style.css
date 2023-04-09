@@ -234,8 +234,9 @@ a.blog-learn-more {
 }
 
 .deskripsi-kami {
-  line-height: 2.5;
+  line-height: 2;
   text-align: justify;
+  font-size: 1.2em;
 }
 
 .team-card {
