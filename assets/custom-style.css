@@ -24,10 +24,11 @@ body {
 
 /* NAVBAR */
 .navbar-brand img {
-    width: 110px;
+    width: 140px;
 }
 
 a.nav-link {
+    margin-left: 15px;
     color: #000000 !important;
     font-weight: 600;
 }
@@ -263,7 +264,7 @@ img.team-img {
 
 .maps-title {
   font-weight: 600;
-  font-size: 36px;
+  font-size: 24px;
   text-align: center;
   background-color: #FFC93C;
   color: #FFFFFF;
